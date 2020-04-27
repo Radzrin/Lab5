@@ -8,7 +8,7 @@
 */
 import java.util.Scanner;
 
-public class Gcd
+public class Question2
 {
 	/**
 	*@param
