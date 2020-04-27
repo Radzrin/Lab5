@@ -58,31 +58,40 @@ public class Main
   {
     this.ammountOfBooks = ammountOfBooks;
   }
-//@param
+
  public static void main(String[] args){
      
-     //book2 
-     System.out.println("book 2nd information");
-     System.out.println("にににににににににに");
-     System.out.println("the title is");
-     System.out.println("The publisher is");
-     System.out.println("The author is");
-     System.out.println("there are units");
+     //book2
      
-     if (ISBN.equals(ISBN2)){
-         
-     }
+     String author = " Jeff Kinney";
+     String publisher = " Amulet Books";
+     String title = " Diary of a Wimpy Kid";
+     int ammountOfBooks = 14;
+     
+     System.out.println("~~~~~~~~~~~~~~~~~~~~");
+     System.out.println("book 2nd information");
+     System.out.println("");
+     System.out.println("the title is"+ title);
+     System.out.println("The publisher is" + publisher);
+     System.out.println("The author is"+ author);
+     System.out.println("there are " + ammountOfBooks + " units");
+     
      
      //book 3
+     System.out.println("");
+     System.out.println("~~~~~~~~~~~~~~~~~~~~");
      System.out.println("book 3rd information");
-     System.out.println("にににににににににに");
+     System.out.println("");
      System.out.println("the title is");
      System.out.println("The publisher is");
      System.out.println("The author is");
      System.out.println("there are units");
+    
      //book 4
+     System.out.println("");
+     System.out.println("~~~~~~~~~~~~~~~~~~~~");
      System.out.println("book 4th information");
-     System.out.println("にににににににににに");
+     System.out.println("");
      System.out.println("the title is");
      System.out.println("The publisher is");
      System.out.println("The author is");
