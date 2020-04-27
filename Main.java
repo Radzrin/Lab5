@@ -58,13 +58,10 @@ public class Main
   {
     this.ammountOfBooks = ammountOfBooks;
   }
-
+//@param
  public static void main(String[] args){
      
-     //book2
-     
-     
-     
+     //book2 
      System.out.println("book 2nd information");
      System.out.println("にににににににににに");
      System.out.println("the title is");
