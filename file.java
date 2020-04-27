@@ -1,3 +1,12 @@
+/**
+*This program find a file named filename.txt and then outputs the name and
+*scores of eacher person in the file
+*
+*@author Christopher Benson
+* 
+*
+*@since 2020-04-23
+*/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
