@@ -58,26 +58,36 @@ public class Main
   {
     this.ammountOfBooks = ammountOfBooks;
   }
+  
+
 
  public static void main(String[] args){
      
      //book2
      
-     String author = " Jeff Kinney";
-     String publisher = " Amulet Books";
-     String title = " Diary of a Wimpy Kid";
-     int ammountOfBooks = 14;
+     String author2 = " Jeff Kinney";
+     String publisher2 = " Amulet Books";
+     String title2 = " Diary of a Wimpy Kid";
+     int ammountOfBooks2 = 14;
+     int ISBN2;
      
      System.out.println("~~~~~~~~~~~~~~~~~~~~");
      System.out.println("book 2nd information");
      System.out.println("");
-     System.out.println("the title is"+ title);
-     System.out.println("The publisher is" + publisher);
-     System.out.println("The author is"+ author);
-     System.out.println("there are " + ammountOfBooks + " units");
+     System.out.println("the title is"+ title2);
+     System.out.println("The publisher is" + publisher2);
+     System.out.println("The author is"+ author2);
+     System.out.println("there are " + ammountOfBooks2 + " units");
+     System.out.println("The ISBN is");
      
      
      //book 3
+     String author3;
+     String publisher3;
+     String title3;
+     int ammountOfBooks3;
+     int ISBN3;
+     
      System.out.println("");
      System.out.println("~~~~~~~~~~~~~~~~~~~~");
      System.out.println("book 3rd information");
@@ -86,8 +96,15 @@ public class Main
      System.out.println("The publisher is");
      System.out.println("The author is");
      System.out.println("there are units");
+     System.out.println("The ISBN is");
     
      //book 4
+     String author4;
+     String publisher4;
+     String title4;
+     int ammountOfBooks4;
+     int ISBN4;
+     
      System.out.println("");
      System.out.println("~~~~~~~~~~~~~~~~~~~~");
      System.out.println("book 4th information");
@@ -96,7 +113,7 @@ public class Main
      System.out.println("The publisher is");
      System.out.println("The author is");
      System.out.println("there are units");
-     
+     System.out.println("The ISBN is");
      System.out.println("");
  }
 }
