@@ -15,7 +15,7 @@ public class Main
   private String author;
   private static String publisher = "Vanier";
   private int YearOfPublishing;
-  private int ISBN;
+  private long ISBN;
   private int ammountOfBooks = 0;
 
 
@@ -74,7 +74,7 @@ public class Main
     String publisher2 = " Amulet Books";
     String title2 = " Diary of a Wimpy Kid";
     int ammountOfBooks2 = 14;
-    int ISBN2;
+    long ISBN2 = 9788954915380L;
 
     System.out.println ("~~~~~~~~~~~~~~~~~~~~");
     System.out.println ("book 2nd information");
@@ -83,13 +83,12 @@ public class Main
     System.out.println ("The publisher is" + publisher2);
     System.out.println ("The author is" + author2);
     System.out.println ("there are " + ammountOfBooks2 + " units");
-    System.out.println ("The ISBN is");
+    System.out.println ("The ISBN is " + ISBN2);
     if(publisher.equals(publisher2)){
     System.out.println ("They have the same publisher");
     }else{
-     System.out.println ("They have different publishers");  
+     System.out.println ("They have different publishers than Vanier");  
     }
-
 
     //book 3
     String author3;
