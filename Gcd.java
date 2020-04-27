@@ -1,7 +1,18 @@
+/**
+*This program prompts the user for two intergers and finds their biggest common divisor
+*
+*@author Christopher Benson
+* 
+*
+*@since 2020-04-23
+*/
 import java.util.Scanner;
 
-public class Main
+public class Gcd
 {
+	/**
+	*@param
+	*/
 	public static void main(String[] args) {
 	    
 	    
