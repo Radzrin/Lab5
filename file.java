@@ -24,8 +24,8 @@ public class file {
        
 	   // variable declarations
         int max;
-		String nameMax = name;
-		String nameMin = name;
+	String nameMax = name;
+	String nameMin = name;
         int min;
         int all = 0;
         int i = 0;
@@ -37,27 +37,26 @@ public class file {
  // sorts out the minimum score and the maximum    
     if(max < score){
      max = score;
-	 nameMax = name;
+     nameMax = name;
     }
     
     if(min > score){
-     min = score;
-	 nameMin = name;
+    min = score;
+    nameMin = name;
     }
      
 // outputs the min/max/average score	 
     while (!sc.hasNextLine()) {  
-      System.out.println(nameMin +" has the Lowest score with "+ min);
-      System.out.println(nameMax +" has the Lowest score with "+ max);
-      System.out.println("The average score is "+ average);
+    System.out.println(nameMin +" has the Lowest score with "+ min);
+    System.out.println(nameMax +" has the Lowest score with "+ max);
+    System.out.println("The average score is "+ average);
     break;}
         
       }
       sc.close();
 
     } catch (FileNotFoundException e) {
-      System.out.println("An error occurred.");
-      e.printStackTrace();
+      System.out.println("Your file may not exist because the program can't find it");
     } 
   }  
 } 
