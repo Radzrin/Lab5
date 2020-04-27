@@ -15,13 +15,13 @@ public class Gcd
 	*/
 	public static void main(String[] args) {
 	    
-	    
+	    //prompt the user for two intergers
 	    Scanner sc = new Scanner(System.in);
 	    
 	    System.out.println("Please put in 2 intergers");
 	    System.out.println("");
 	    
-	    
+	    //if the input weren't intergers it will ask again
 	    while (!sc.hasNextInt()){
 	        sc.nextLine();
 	        System.out.println("invalid. Please put in two intergers");
@@ -39,6 +39,7 @@ public class Gcd
             gcd = i;
             }
         }
+		//outputs the answer
         System.out.println("The Greatest common divisor is  " + gcd);
 	}
 }
